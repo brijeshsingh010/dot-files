@@ -1,0 +1,31 @@
+-- use only when cilot is configured
+--
+-- return {
+-- 	{
+-- 		"zbirenbaum/copilot-cmp",
+-- 		event = "InsertEnter",
+-- 		config = function()
+-- 			require("copilot_cmp").setup()
+-- 		end,
+-- 		dependencies = {
+-- 			"zbirenbaum/copilot.lua",
+-- 			cmd = "Copilot",
+-- 			config = function()
+-- 				require("copilot").setup({
+-- 					suggestion = { enabled = false },
+-- 					panel = { enabled = false },
+-- 				})
+-- 			end,
+-- 		},
+-- 	},
+-- 	{
+-- 		"CopilotC-Nvim/CopilotChat.nvim",
+-- 		dependencies = {
+-- 			{ "nvim-lua/plenary.nvim", branch = "master" },
+-- 		},
+-- 		build = "make tiktoken",
+-- 		opts = {
+-- 			-- See Configuration section for options
+-- 		},
+-- 	},
+-- }
